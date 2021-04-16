@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/placestogoImageView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:scaleType="fitXY"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/txtPlaceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLACE NAME"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginLeft="10sp"
+            ></TextView>
+        <TextView
+            android:id="@+id/txtPlaceDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESC"
+            android:layout_marginLeft="10sp"
+            ></TextView>
+    </LinearLayout>
+</LinearLayout>
